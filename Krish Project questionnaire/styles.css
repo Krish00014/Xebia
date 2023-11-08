@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #F0F0F0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.questionnaire {
+    background: #fff;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.questionnaire h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+.question p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.radio-group label {
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #2674a6;
+}
+
+.response {
+    background: #3498db;
+    color: #fff;
+    border: 2px solid #2674a6;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.response h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.response p {
+    font-size: 18px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .questionnaire {
+        width: 100%;
+    }
+}

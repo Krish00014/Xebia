@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="questionnaire">
+        <h1>🌟 Creative Questionnaire 🌟</h1>
+        <div class="question">
+            <p>What's your name?</p>
+            <input type="text" id="q1" placeholder="Your name">
+        </div>
+        <div class="question">
+            <p>How satisfied are you with our services?</p>
+            <div class="radio-group">
+                <input type="radio" name="q2" id="very-satisfied" value="very-satisfied">
+                <label for="very-satisfied">😄 Very Satisfied</label>
+                <input type="radio" name="q2" id="satisfied" value="satisfied">
+                <label for="satisfied">😊 Satisfied</label>
+                <input type="radio" name="q2" id="neutral" value="neutral">
+                <label for="neutral">😐 Neutral</label>
+                <input type="radio" name="q2" id="dissatisfied" value="dissatisfied">
+                <label for="dissatisfied">😞 Dissatisfied</label>
+                <input type="radio" name="q2" id="very-dissatisfied" value="very-dissatisfied">
+                <label for="very-dissatisfied">😡 Very Dissatisfied</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>Any additional comments or suggestions?</p>
+            <textarea id="q3" placeholder="Your feedback"></textarea>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <div class="response" id="response">
+        <h2>Thank you for your valuable feedback! 🎉</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
